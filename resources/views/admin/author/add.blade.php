@@ -22,7 +22,7 @@
                 <form id="author-form" onsubmit="return false">
                     <div class="form-group">
                         <label>Authors Name</label>
-                        <input type="text" class="form-control" name="author_name" id="author_name"  placeholder="Enter Author name">
+                        <input type="text" class="form-control" name="author_name" id="author_name"  placeholder="Enter Author name" required>
                         <small id="author_error" class="form-text text-muted"></small>
                     </div>
                     <button type="submit" class="btn btn-primary">Add</button>

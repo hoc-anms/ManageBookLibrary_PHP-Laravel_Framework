@@ -145,4 +145,6 @@
         </div>
     </div>
 
+    {{--js process manage modal--}}
+    <script type="text/javascript" src="js/author.js"></script>
 @endsection

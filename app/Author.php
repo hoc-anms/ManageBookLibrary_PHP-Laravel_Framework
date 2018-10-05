@@ -13,6 +13,6 @@ class Author extends Model
     ];
     protected $primaryKey='a_id';
     public function bookAuth(){
-        return $this->hasMany('App\Book','b_aid','a_id');
+        return $this->hasMany('App\Book','b_aid','id');
     }
 }

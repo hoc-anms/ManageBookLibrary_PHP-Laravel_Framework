@@ -46,7 +46,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index"><i class="fa fa-home">&nbsp;</i>Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="admin/index"><i class="fa fa-home">&nbsp;</i>Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="admin/logout"><i class="fa fa-user">&nbsp;</i>Logout</a>

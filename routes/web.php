@@ -11,10 +11,6 @@ Route::get('header',function (){
    return view('admin.layouts.header');
 });
 
-//Route to index dashboard
-Route::get('index',function (){
-    return view('admin.layouts.index');
-});
 //Route User
 Route::get('admin/login','UserController@getLoginAdmin');
 Route::post('admin/login','UserController@postLoginAdmin');

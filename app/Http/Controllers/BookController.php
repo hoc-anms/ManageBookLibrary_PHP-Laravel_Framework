@@ -27,7 +27,7 @@ class BookController extends Controller
         $book->b_aid=$request->a_id;
         $book->save();
         //$resultBook=DB::select('SELECT b.b_id,b.b_cid,b.b_aid,b.b_name,c.c_name,a.a_name,b.created_at,b.b_status FROM book b,author a,categories c WHERE b.b_aid = a.a_id AND b.b_cid = c.c_id');
-        return response()->json($book);
+        return dd(response()->json($book));
     }
     public function deleteBook(Request $request){
         $book=Book::find($request->b_id)->delete();
